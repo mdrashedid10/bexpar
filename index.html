@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>BeXpar - Developer</title>
+    
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="dark-mode.css">
+
+<!-- AOS Library -->
+<link rel="stylesheet" href="aos.css" />
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="all.min.css">
+
+<!-- Particle -->
+<script src="particles.min.js"></script>
+
+<!-- Tilt -->
+<script src="vanilla-tilt.min.js"></script>
+
+<!-- GSAP -->
+<script src="gsap.min.js"></script>
+
+<!-- ScrollTrigger -->
+<script src="ScrollTrigger.min.js"></script> <!-- Add in head section -->
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="googlebot" content="noindex,nofollow">
+</head>
+<body>
+    <!-- Navigation -->
+   <nav class="navbar">
+    <div class="logo">BeXpar</div>
+   
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+   
+</nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <div class="profile-container" data-aos="fade-right">
+                <div class="profile-wrapper" data-tilt>
+                    <div class="profile-image" oncontextmenu="return false">
+                        <img 
+                            src="bexpar.jpg" 
+                            alt="Brajendra" 
+                            draggable="false"
+                            oncontextmenu="return false"
+                            onselectstart="return false"
+                            onkeydown="return false"
+                        >
+                    </div>
+                    <div class="profile-circle"></div>
+                    <div class="profile-glow"></div>
+                </div>
+            </div>
+            <div class="hero-text" data-aos="fade-left">
+                <div class="greeting">
+                    <span class="wave">👋</span>
+                    <span class="age-tag">25 years old</span>
+                </div>
+                <h1>BeXpar</h1>
+                <div class="typing-text">
+                     <span class="typed-text"></span>
+                </div>
+                <p class="hero-description">Founder & CEO of BeXpar | Pushing the boundaries of technology, crafting unique content, and building the future of apps.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.facebook.com/profile.php?id=61571749598172&mibextid=ZbWKwL" class="btn primary" target="_blank">
+                        <span>Facebook Page</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-grid">
+                <!-- Profile Info Card -->
+                <div class="about-card main-info" data-aos="fade-up">
+                    <div class="card-header">
+                        <i class="fas fa-user-circle"></i>
+                        <h3>My Details</h3>
+                    </div>
+                    <div class="profile-info">
+                        <ul class="info-list">
+                            <li><span>Name:</span> MD RASHED</li>
+                            <li><span>Age:</span> 25 years</li>
+                            <li><span>Location:</span> Narsingdi Dhaka Bangladesh </li>
+                        </ul>
+                        <p>I am an art, computer science, and technology student with a deep passion for coding and digital innovation. My projects are built on the fusion of technology and creativity, where I am learning and working on mobile app development 
+                        </p>
+</biv>
+                </div>
+
+                <!-- Interests & Hobbies Card -->
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-header">
+                        <i class="fas fa-heart"></i>
+                        <h3>Interests And Hobbies</h3>
+                    </div>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Technology</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>App Development</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-robot"></i>
+                            <span>AI</span>
+                        </div>
+                        
+                        <div class="interest-item">
+                            <i class="fas fa-book"></i>
+                            <span>Reading</span>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <!-- Achievements Card -->
+               
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+            
+            <!-- Development Skills -->
+            <div class="skills-category" data-aos="fade-up">
+                <h3 class="category-title">Development Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-card" data-tilt>
+                        <div class="skill-icon">
+                            <i class="fab fa-flutter"></i>
+                        </div>
+                        <h3>Flutter Development</h3>
+                        <p>Cross-Platform Apps, UI Design,Integration</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="95"></div>
+                        </div>
+                        <span class="percentage">21%</span>
+                    </div>
+
+                    <div class="skill-card" data-tilt>
+                        <div class="skill-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <h3>Android Native</h3>
+                        <p>Java,  Native App Development</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="90"></div>
+                        </div>
+                        <span class="percentage">57%</span>
+                    </div>
+
+       
+                </div>
+            </div>
+
+            <!-- Content Creation Skills -->
+            <div class="skills-category" data-aos="fade-up">
+                <h3 class="category-title">Content Creation</h3>
+                <div class="skills-grid">
+                    <div class="skill-card" data-tilt>
+                        <div class="skill-icon">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <h3>Tech Tutorials</h3>
+                        <p>Educational Content, Programming Tutorials, Tech Reviews</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="95"></div>
+                        </div>
+                        <span class="percentage">95%</span>
+                    </div>
+
+                    <div class="skill-card" data-tilt>
+                        <div class="skill-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI & Prompt Engineering</h3>
+                        <p>AI Tools, Prompt Crafting, No-Code Solutions</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="90"></div>
+                        </div>
+                        <span class="percentage">85%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development Skills -->
+            <div class="skills-category" data-aos="fade-up">
+                <h3 class="category-title">Web Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-card" data-tilt>
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <p>HTML5, CSS3, JavaScript, Responsive Design</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="85"></div>
+                        </div>
+                        <span class="percentage">45%</span>
+                    </div>
+
+                    <div class="skill-card" data-tilt>
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend Development</h3>
+                        <p>API Integration, Database Management, Security</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="80"></div>
+                        </div>
+                        <span class="percentage">71%</span>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+<div class="skill-card" data-tilt>
+                       
+                        <h3>Logo Designer </h3>
+                        <p>A Logo Designer is a creative individual who designs attractive and meaningful logos for brands.
+
+</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="80"></div>
+                        </div>
+                        <span class="percentage">71%</span>
+                    </div>
+                    
+                    
+                    
+<div class="skill-card" data-tilt>
+                        
+                        <h3>Lead Generation</h3>
+                        <p>We generate leads from social media platforms such as Facebook, Instagram, TikTok, YouTube.</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="80"></div>
+                        </div>
+                        <span class="percentage">71%</span>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </section>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>BeXpar Channel</h3>
+                    <p>Educational YouTube channel focused on technology and programming tutorials.</p>
+                    <a href="https://youtube.com/@bexparbd?si=N1HUBQI-OCz-WvdO" class="btn primary" target="_blank">View Channel</a>
+                </div>
+
+   
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub Projects</h3>
+                    <p>Explore more of my amazing projects and contributions on GitHub.</p>
+                    <a href="https://github.com/mdrashedid10" class="btn primary" target="_blank">View Projects</a>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram Projects</h3>
+                    <p>Check out my other projects and development journey on Instagram.</p>
+                    <a href="https://www.instagram.com/bexparid10?igsh=YXJ6cnI3dnN5aGQ=" class="btn primary" target="_blank">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media" class="social-media">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Social Media Presence</h2>
+            <div class="social-stats-grid">
+                <div class="social-stat-card youtube" data-aos="fade-up">
+                    <div class="platform-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>YouTube</h3>
+                        <div class="stat-number">
+                            <span class="counter" data-target="30000">0</span>
+                            <span class="stat-label">Subscribers</span>
+                        </div>
+                        <a href="https://youtube.com/@bexparbd?si=N1HUBQI-OCz-WvdO" class="platform-link" target="_blank">
+                            <span>Visit Channel</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="social-stat-card instagram" data-aos="fade-up" data-aos-delay="100">
+                    <div class="platform-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>Instagram</h3>
+                        <div class="stat-number">
+                            <span class="counter" data-target="21000">0</span>
+                            <span class="stat-label">Followers</span>
+                        </div>
+                        <a href="https://instagram.com/bexparid10" class="platform-link" target="_blank">
+                            <span>Follow Me</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+              
+
+                <div class="social-stat-card github" data-aos="fade-up" data-aos-delay="300">
+                    <div class="platform-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>GitHub</h3>
+                        <div class="stat-number">
+                            <span class="counter" data-target="67">0</span>
+                            <span class="stat-label">Followers</span>
+                        </div>
+                        <a href="https://github.com/mdrashedid10" class="platform-link" target="_blank">
+                            <span>Follow Me</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+            <div class="contact-content">
+               
+                <div class="social-links" data-aos="fade-left">
+                    <a href="https://youtube.com/@bexparbd?si=N1HUBQI-OCz-WvdO" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/bexparid10?igsh=YXJ6cnI3dnN5aGQ=" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61571749598172&mibextid=ZbWKwL " class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/message/…" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                   
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025  . All Rights </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/dark-mode.js"></script>
+</body>
+</html> 
